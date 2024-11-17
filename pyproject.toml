@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "deepproblog-cv-example"
+version = "1.0.0"
+description = "Testing DeepProbLog in an Image classification problem"
+authors = ["Sanchit Agarwal"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torchvision = "^0.20.1"
+matplotlib = "^3.9.2"
+pandas = "^2.2.3"
+deepproblog = "^2.0.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
